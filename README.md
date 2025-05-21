@@ -22,3 +22,6 @@ This is a simple to-do list application built with HTML, CSS, and JavaScript. It
 1. Open `index.html` in your browser.
 2. Add your tasks.
 3. Your list will be saved automatically in your browser.
+
+Site Preview: [
+"https://dailyinvestors.github.io/Tasks/"
