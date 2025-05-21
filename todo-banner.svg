@@ -1,0 +1,41 @@
+<svg width="400" height="120" viewBox="0 0 400 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0" y1="0" x2="400" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f7971e"/>
+      <stop offset="0.5" stop-color="#ffd200"/>
+      <stop offset="1" stop-color="#21d4fd"/>
+    </linearGradient>
+    <linearGradient id="grad2" x1="0" y1="120" x2="400" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#a1c4fd"/>
+      <stop offset="1" stop-color="#c2e9fb"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="120" fill="url(#grad2)" rx="20"/>
+  <g font-family="monospace" font-weight="bold">
+    <text x="20" y="32" font-size="24" fill="url(#grad1)">My To-Do List</text>
+    <!-- Numbered lines -->
+    <g font-size="18" fill="#fff" stroke="#444" stroke-width="0.5">
+      <text x="35" y="58">1.</text>
+      <line x1="60" y1="56" x2="360" y2="56" stroke="url(#grad1)" stroke-width="2"/>
+      <text x="35" y="75">2.</text>
+      <line x1="60" y1="73" x2="360" y2="73" stroke="url(#grad1)" stroke-width="2"/>
+      <text x="35" y="92">3.</text>
+      <line x1="60" y1="90" x2="360" y2="90" stroke="url(#grad1)" stroke-width="2"/>
+      <text x="35" y="109">4.</text>
+      <line x1="60" y1="107" x2="360" y2="107" stroke="url(#grad1)" stroke-width="2"/>
+    </g>
+    <!-- Colorful Circles for numbers 5-10 -->
+    <circle cx="60" cy="115" r="6" fill="#f7971e"/>
+    <text x="57" y="119" font-size="10" fill="#fff">5</text>
+    <circle cx="80" cy="115" r="6" fill="#ffd200"/>
+    <text x="77" y="119" font-size="10" fill="#555">6</text>
+    <circle cx="100" cy="115" r="6" fill="#21d4fd"/>
+    <text x="97" y="119" font-size="10" fill="#fff">7</text>
+    <circle cx="120" cy="115" r="6" fill="#a1c4fd"/>
+    <text x="117" y="119" font-size="10" fill="#555">8</text>
+    <circle cx="140" cy="115" r="6" fill="#c2e9fb"/>
+    <text x="137" y="119" font-size="10" fill="#21d4fd">9</text>
+    <circle cx="160" cy="115" r="6" fill="#f7971e"/>
+    <text x="156" y="119" font-size="10" fill="#fff">10</text>
+  </g>
+</svg>
